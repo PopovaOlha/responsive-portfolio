@@ -1,64 +1,214 @@
-*{
+* {
     padding: 0;
     margin: 0;
     border: 0;
-}
-*,*:before,*:after{
+  }
+  *,
+  *:before,
+  *:after {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
-    box-sizing:border-box;
-}
-:focus,:active{outline: none;}
-a:focus,a:active{outline: none;}
-
-nav,footer,header,aside{display:block;}
-
-html,body{
+    box-sizing: border-box;
+  }
+  :focus,
+  :active {
+    outline: none;
+  }
+  a:focus,
+  a:active {
+    outline: none;
+  }
+  
+  nav,
+  footer,
+  header,
+  aside {
+    display: block;
+  }
+  
+  html,
+  body {
     height: 100%;
     width: 100%;
     font-size: 100%;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     line-height: 1;
     font-size: 14px;
     background-color: #e5e5e5;
     -ms-text-size-adjust: 100%;
     -moz-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
-
-}
-
-input,button,textarea{font-family: inherit;}
-
-input::-ms-clear{display:none;}
-button{cursor:pointer;}
-button::-moz-focus-inner{padding: 0; border: 0;}
-a,a:visited{text-decoration: none;}
-a:hover{text-decoration: none;}
-ul li{list-style:none;}
-img{vertical-align:top;}
-
-h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
-h1,h2{font-family: 'Playfair Display', serif;
-    color: red;
-}
-.header{
-    max-width: 1160px;
-    margin:0 auto;
-}
-.navbar {
-    margin-top: 40px;
-    background-color: #e5e5e5;
-}
- .navbar-collapse{
-  justify-content: end;
-}
-.container-fluid{
-background-color: #e5e5e5;  
-}
-.nav-item{
+  }
+  
+  input,
+  button,
+  textarea {
+    font-family: inherit;
+  }
+  
+  input::-ms-clear {
+    display: none;
+  }
+  button {
+    cursor: pointer;
+  }
+  button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+  }
+  a,
+  a:visited {
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: none;
+  }
+  ul li {
+    list-style: none;
+  }
+  img {
+    vertical-align: top;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-size: inherit;
+    font-weight: 400;
+  }
+  h1,
+  h3 {
+    font-family: "Playfair Display", serif;
+    /* start create a heading*/
+  }
+  .wrapper {
+    margin: 0 auto;
+    background-color: #f9f7fe;
+    max-width: 1440px;
+    height: 900px;
+  }
+  
+  .navbar-brand {
+    width: 150px;
+    height: 41px;
+    font-weight: bold;
+  }
+  .navbar {
+    padding-top: 40px;
+    max-width: 1161px;
+    margin: 0 auto;
+  }
+  
+  .navbar-collapse {
+    justify-content: end;
+  }
+  
+  .nav-item {
     margin-right: 35px;
-}
-.nav-item:last-child{
+  }
+  .nav-item:last-child {
     margin-right: 0;
-}
-
+  }
+  /* end create a heading*/
+  /* create a section main*/
+  main{
+    max-width: 1160px;
+    margin: 0 auto;
+  }
+  .title {
+    max-width: 693px;
+    height: 353px;
+    margin: 0 auto;
+    margin-top: 194px;
+  }
+  .greeting {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+  }
+  h1 {
+    font-weight: 700px;
+    font-size: 96px;
+    line-height: 128px;
+  }
+  .introduse {
+    font-weight: 400px;
+    font-size: 24px;
+    line-height: 36px;
+  }
+  .btn {
+    padding: 18px 30px;
+    margin-top: 49px;
+    background-color: #6c63ff;
+    color: #fff;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    width: 200px;
+    height: 63px;
+  }
+  .btn:hover {
+    background-color: #534dd3;
+    color: #fff;
+  }
+  .button_link {
+    color: #fff;
+  }
+  .button_link:hover {
+    color: #fff;
+  }
+  .conteiner {
+    margin-top: 82px;
+    background-color: #e5e5e5;
+    max-width: 1160px;
+    height: 1999px;
+  }
+  .feauture_project {
+    color: #272142;
+    padding-top: 47px;
+    line-height: 27px;
+    font-size: 18px;
+    font-weight: 400;
+  }
+  .second_button {
+    border: 1px solid grey;
+    padding: 18px 25px;
+    border-radius: 4px;
+    width: 200px;
+    height: 63px;
+    margin-top: 45px;
+  }
+  .third_link {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 24px;
+    color: #6c63ff;
+    text-align: center;
+  }
+  h3 {
+    font-weight: 700;
+    font-size: 64px;
+    color: #000000;
+    line-height: 85px;
+    margin-bottom: 43px;
+  }
+  .img_section {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 30px;
+    opacity: 0.7;
+  }
+  .first_column {
+    width: 560px;
+    height: 560px;
+    margin: 0 auto;
+  }
+  .second_column{
+    width: 514px;
+    height: 355px;
+    padding-top: 80px;
+  }
+  
