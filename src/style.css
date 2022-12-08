@@ -80,7 +80,7 @@
     font-weight: 400;
   }
   h1,
-  h3 {
+  h3,h4 {
     font-family: "Playfair Display", serif;
   }
     :root{
@@ -170,7 +170,7 @@
   .button_link:hover {
     color: #fff;
   }
-  .conteiner {
+  .content_conteiner {
     margin-top: 82px;
     max-width: 1160px;
     height: 1999px;
@@ -234,8 +234,22 @@
  .second_line{
   margin-left: 60px;
  }
+ .contact_conteiner{
+  max-width: 1160px;
+  height: 200px;
+  margin-top: 115px;
+}
 
-@media (max-width: 810px) {
+@media (max-width: 950px) {
+  h1{
+    font-size: 80px;
+  }
+  .introduse{
+    font-size: 20px;
+  }
+  .greeting{
+    font-size: 30px;
+  }
   .first_column{
     display: block;
     margin:0 auto;
@@ -246,4 +260,43 @@
    text-align: center;
    margin-bottom: 30px;
  }
+ .second_line{
+  margin-bottom: 50px;
+ }
+ .wrapper{
+  height:800px;
+ }
+}
+@media (max-width: 450px) {
+  h1{
+    font-size: 60px;
+    padding:0 5px;
+  }
+  h3{
+    font-size: 40px;
+  }
+  .introduse,.feauture_project{
+    font-size: 14px;
+    padding:0 5px;
+  }
+  .greeting{
+    font-size: 30px;
+  }
+  .wrapper{
+    height: 650px;
+  }
+  .title{
+    margin-top: 50px;
+  }
+ .first_column{
+  display: none;
+ }
+ .second_column{
+  margin-top:20px;
+  margin-bottom: 50px;
+  padding:0 20px;
+ }
+.content_conteiner{
+  height:150px;
+  }
 }
