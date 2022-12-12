@@ -278,7 +278,7 @@ h4 {
 .footer {
   margin: 0 auto;
   height: 300px;
-  margin-top: 81px;
+  margin-top: 95px;
 }
 .mail_section {
   text-align: center;
@@ -304,7 +304,7 @@ h4 {
 }
 
 
-@media (max-width: 950px) {
+@media (max-width: 991.98px) {
   h1 {
     font-size: 80px;
   }
@@ -346,9 +346,13 @@ h4 {
   .work_together:last-child {
     margin-top: 30px;
   }
+  .footer {
+    position: relative;
+    top:90em;
+    }
 }
 
-@media (max-width: 450px) {
+@media (max-width: 767.98px) {
   h1 {
     font-size: 60px;
     padding: 0 5px;
@@ -394,7 +398,8 @@ h4 {
     line-height: 0.3px;
   }
   .footer {
-    margin-top: 0;
+position: relative;
+top:2em;
     height: 150px;
   }
 }
