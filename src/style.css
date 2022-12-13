@@ -107,7 +107,7 @@ h4 {
   font-weight: bold;
 }
 .navbar {
-  padding-top: 40px;
+  margin-top: 40px;
   max-width: 1161px;
   margin: 0 auto;
 }
@@ -154,7 +154,7 @@ h4 {
   max-width: 693px;
   height: 353px;
   margin: 0 auto;
-  margin-top: 194px;
+margin-top: 200px;
 }
 .greeting {
   font-weight: 700;
@@ -169,7 +169,7 @@ h4 {
 }
 .first_btn {
   padding: 18px 30px;
-  margin-top: 49px;
+  margin-top: 44px;
   background-color: var(--first-button-background-color);
   color: #fff;
   font-weight: 500;
@@ -190,7 +190,7 @@ h4 {
 }
 .content_conteiner {
   margin-top: 82px;
-  max-width: 1160px;
+  max-width: 1181px;
   height: 1999px;
 }
 .feauture_project {
@@ -274,6 +274,9 @@ h4 {
   display: inline;
   text-align: right;
   margin-top: 5px;
+}
+.contact_conteiner{
+  margin-top: 118px;
 }
 .footer {
   margin: 0 auto;
@@ -398,8 +401,8 @@ h4 {
     line-height: 0.3px;
   }
   .footer {
-position: relative;
-top:2em;
+    position: relative;
+    top:2em;
     height: 150px;
   }
 }
