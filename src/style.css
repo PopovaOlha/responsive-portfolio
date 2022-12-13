@@ -107,6 +107,7 @@ h4 {
   font-weight: bold;
 }
 .navbar {
+  font-size: 16px;
   margin-top: 40px;
   max-width: 1161px;
   margin: 0 auto;
@@ -311,6 +312,12 @@ margin-top: 200px;
   h1 {
     font-size: 80px;
   }
+  .navbar-brand {
+    font-size: 25px;
+  }
+  .logo_name{
+    opacity:0.8;
+  }
   .introduse {
     font-size: 20px;
   }
@@ -357,11 +364,18 @@ margin-top: 200px;
 
 @media (max-width: 767.98px) {
   h1 {
+    line-height: 1.5 ;
     font-size: 60px;
     padding: 0 5px;
   }
   h3 {
     font-size: 40px;
+  }
+  .navbar-brand {
+    font-size: 30px;
+  }
+  .logo_name{
+    opacity:0.7;
   }
   .introduse,
   .feauture_project {
@@ -375,7 +389,7 @@ margin-top: 200px;
     height: 650px;
   }
   .title {
-    margin-top: 50px;
+    margin-top: 70px;
   }
   .first_column {
     display: none;
