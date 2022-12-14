@@ -126,7 +126,7 @@ h4 {
 /* end create a heading*/
 /* create a section main*/
 main {
-  height: 2100px;
+  height: 2400px;
   max-width: 1160px;
   margin: 0 auto;
   background-color: var(--main-background-color);
@@ -136,7 +136,7 @@ main {
 }
 h1 {
   font-weight: 700px;
-  font-size: 96px;
+  font-size: 90px;
   line-height: 128px;
 }
 h3 {
@@ -224,11 +224,20 @@ margin-top: 200px;
   color: #6c63ff;
 }
 
-.img_section {
+.items_section {
   font-weight: 400;
   font-size: 15px;
   line-height: 30px;
   opacity: 0.7;
+}
+.main_paragraph{
+color:#272142;
+padding-top:127px;
+font-size: 18px;
+font-weight: 400;
+line-height: 1.5; /* 27/18 */
+text-align: center;
+
 }
 .row {
   margin-bottom: 60px;
@@ -309,6 +318,9 @@ margin-top: 200px;
 
 
 @media (max-width: 991.98px) {
+  main{
+    height: 3500px;
+  }
   h1 {
     font-size: 80px;
   }
@@ -320,6 +332,9 @@ margin-top: 200px;
   }
   .introduse {
     font-size: 20px;
+  }
+  .title{
+    margin-top:80px;
   }
   .greeting {
     font-size: 30px;
@@ -337,9 +352,12 @@ margin-top: 200px;
   .second_line {
     margin-bottom: 50px;
   }
-  .wrapper {
-    height: 800px;
-  }
+ .wrapper{
+  height: 600px;
+ }
+ .main_paragraph{
+  padding-top: 30px;
+ }
   .contact_row {
     height: 200px;
     text-align: center;
@@ -356,13 +374,20 @@ margin-top: 200px;
   .work_together:last-child {
     margin-top: 30px;
   }
+  .contact_conteiner{
+    margin-top:0px;
+  }
   .footer {
-    position: relative;
-    top:90em;
+    margin-top: 0px;
+    height: 150px;
     }
 }
 
 @media (max-width: 767.98px) {
+
+  main{
+    height:2000px;
+  }
   h1 {
     line-height: 1.5 ;
     font-size: 60px;
@@ -391,13 +416,17 @@ margin-top: 200px;
   .title {
     margin-top: 70px;
   }
+  .main_paragraph{
+    font-size: 15px;
+    padding:0 20px;
+  }
   .first_column {
     display: none;
   }
   .second_column {
     margin-top: 20px;
     margin-bottom: 50px;
-    padding: 0 20px;
+    padding: 0 30px;
   }
   .content_conteiner {
     height: 150px;
@@ -414,9 +443,15 @@ margin-top: 200px;
     font-size: 10px;
     line-height: 0.3px;
   }
+  .tolk_btn{
+    padding-bottom:45px;
+  }
+  .mail_section{
+    font-weight: 18px;
+  }
   .footer {
     position: relative;
     top:2em;
-    height: 150px;
+    height:150px;
   }
 }
