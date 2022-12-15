@@ -265,7 +265,6 @@ text-align: center;
 .contact_row {
   padding: 45px 120px;
   height: 200px;
-  width: 1160;
   background-color: #f9f7fe;
   border-radius: 20px;
 }
@@ -462,7 +461,7 @@ text-align: center;
 /*______________________________________________________________________________*/
 /*start create a header of about page*/
 .wrapper_list {
-  min-height: 100%;
+  min-height: 1500px;
   display: flex;
   flex-direction: column;
   overflow: clip;
@@ -473,11 +472,11 @@ text-align: center;
 display: block;
 margin: 0 auto;
 }
-.row {
-}
-.about_row {
-}
-.col-md-6 {
+.main_work_conteiner{
+  margin-top: 82px;
+  width: 1160px;
+  height: 320px;
+  
 }
 .first_column_hero {
   width: 506px;
@@ -485,25 +484,13 @@ margin: 0 auto;
   margin-top: 177px;
   margin-right: 94px;
 }
-.about_name {
-}
-.item_section {
-}
-.items_section {
-}
-.btn {
-}
-.first_btn {
-}
-.button_link {
-}
+
 .second_column_hero {
   width: 560px;
   height: 560px;
   margin-top: 157px;
 }
-.main_hero {
-}
+
 @media (max-width: 991.98px) {
   .about_conteiner {
     display: inline;
@@ -511,14 +498,38 @@ margin: 0 auto;
   .first_column_hero {
     display: block;
     margin: 0 auto;
+    margin-top: 40px;
     text-align: center;
   }
   .second_column_hero {
+    height:550px;
     display: block;
     margin: 0 auto;
+    margin-top: 20px;
   }
+.main_work_conteiner{
+  max-width: 100%;
+  text-align: center;
+  margin:0 auto;
+}
 
 }
 @media (max-width: 767.98px) {
-
+  .first_column_hero {
+    margin-top:70px;
+    padding:0px 20px;
+  }
+  .second_column_hero {
+    padding:0px 20px;
+    height:320px;
+  }
+  .main_work_conteiner{
+    height: 400px;
+    max-width: 100%;
+    text-align: center;
+    margin:0 auto;
+  }
+  .footer{
+    height: 200px;
+  }
 }
