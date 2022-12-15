@@ -137,19 +137,19 @@ main {
 h1 {
   font-weight: 700px;
   font-size: 90px;
-  line-height: 128px;
+  line-height: 1.42; /* 128/90 */
 }
 h3 {
   font-weight: 700;
   font-size: 64px;
   color: var(--title-branding-color);
-  line-height: 85px;
+  line-height: 1.32; /* 85/64 */
   margin-bottom: 43px;
 }
 h4 {
   font-weight: 400;
   font-size: 48px;
-  line-height: 63.9px;
+  line-height: 1.4; /* 63.9/48 */
 }
 .title {
   max-width: 693px;
@@ -160,13 +160,13 @@ margin-top: 200px;
 .greeting {
   font-weight: 700;
   font-size: 36px;
-  line-height: 54px;
+  line-height: 1.5; /* 54/36 */
 }
 
 .introduse {
   font-weight: 400px;
   font-size: 24px;
-  line-height: 36px;
+  line-height: 1.5; /* 36/24 */
 }
 .first_btn {
   padding: 18px 30px;
@@ -175,7 +175,7 @@ margin-top: 200px;
   color: #fff;
   font-weight: 500;
   font-size: 18px;
-  line-height: 27px;
+  line-height: 1.5; /* 27/18 */
   width: 200px;
   height: 63px;
 }
@@ -184,6 +184,7 @@ margin-top: 200px;
   color: #fff;
 }
 .button_link {
+  font-size: 17px;
   color: #fff;
 }
 .button_link:hover {
@@ -197,7 +198,7 @@ margin-top: 200px;
 .feauture_project {
   color: #272142;
   padding-top: 47px;
-  line-height: 27px;
+  line-height: 1.5; /* 27/18 */
   font-size: 18px;
   font-weight: 400;
 }
@@ -216,7 +217,7 @@ margin-top: 200px;
 .third_link {
   font-weight: 500;
   font-size: 15px;
-  line-height: 24px;
+  line-height: 1.6; /* 24/15 */
   color: #6c63ff;
   text-align: center;
 }
@@ -227,7 +228,7 @@ margin-top: 200px;
 .items_section {
   font-weight: 400;
   font-size: 15px;
-  line-height: 30px;
+  line-height: 2; /* 30/15 */
   opacity: 0.7;
 }
 .main_paragraph{
@@ -259,7 +260,7 @@ text-align: center;
 .contact_paragraph {
   font-weight: 400;
   font-size: 18px;
-  line-height: 27px;
+  line-height: 1.5; /* 27/18 */
 }
 .contact_row {
   padding: 45px 120px;
@@ -276,7 +277,7 @@ text-align: center;
   color: #fff;
   font-weight: 500;
   font-size: 18px;
-  line-height: 27px;
+  line-height: 1.5; /* 27/18 */
   width: 200px;
   height: 63px;
 }
@@ -288,6 +289,8 @@ text-align: center;
 .contact_conteiner{
   margin-top: 118px;
 }
+/*end create a main section*/
+/*create a footer section*/
 .footer {
   margin: 0 auto;
   height: 300px;
@@ -315,8 +318,8 @@ text-align: center;
   text-align: center;
   margin-right: 20px;
 }
-
-
+/*end create a footer section*/
+/*create the adaptive media for the home page*/
 @media (max-width: 991.98px) {
   main{
     height: 3500px;
@@ -454,4 +457,68 @@ text-align: center;
     top:2em;
     height:150px;
   }
+}
+/*end create the adaptive media for home page*/
+/*______________________________________________________________________________*/
+/*start create a header of about page*/
+.wrapper_list {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: clip;
+}
+.about_conteiner {
+  width: 1161px;
+  height: 717px;
+display: block;
+margin: 0 auto;
+}
+.row {
+}
+.about_row {
+}
+.col-md-6 {
+}
+.first_column_hero {
+  width: 506px;
+  height: 485px;
+  margin-top: 177px;
+  margin-right: 94px;
+}
+.about_name {
+}
+.item_section {
+}
+.items_section {
+}
+.btn {
+}
+.first_btn {
+}
+.button_link {
+}
+.second_column_hero {
+  width: 560px;
+  height: 560px;
+  margin-top: 157px;
+}
+.main_hero {
+}
+@media (max-width: 991.98px) {
+  .about_conteiner {
+    display: inline;
+  }
+  .first_column_hero {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .second_column_hero {
+    display: block;
+    margin: 0 auto;
+  }
+
+}
+@media (max-width: 767.98px) {
+
 }
