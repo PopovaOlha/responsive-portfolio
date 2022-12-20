@@ -139,13 +139,21 @@ h1 {
   font-size: 90px;
   line-height: 1.42; /* 128/90 */
 }
+.home_project{
+  margin-bottom: 43px;
+}
+h2 {
+font-size: 24px;
+font-weight: 700;
+line-height: 1.5; /* 36/24 */
+letter-spacing: 0em;
+}
 h3 {
   font-weight: 700;
   font-size: 64px;
   color: var(--title-branding-color);
   line-height: 1.32; /* 85/64 */
-  margin-bottom: 43px;
-}
+  }
 h4 {
   font-weight: 400;
   font-size: 48px;
@@ -255,7 +263,7 @@ text-align: center;
   margin-left: 60px;
 }
 .second_line {
-  margin-left: 60px;
+  column-gap: 35px;
 }
 
 .contact_paragraph {
@@ -389,7 +397,7 @@ text-align: center;
 @media (max-width: 767.98px) {
 
   .home_main{
-    height:2000px;
+    height:1900px;
   }
   h1 {
     line-height: 1.5 ;
@@ -463,6 +471,9 @@ text-align: center;
   .work_inquiry{
     margin-top: 20px;
   }
+  .contact_conteiner{
+    padding:0px 15px;
+  }
 }
 /*end create the adaptive media for home page*/
 /*______________________________________________________________________________*/
@@ -476,13 +487,20 @@ text-align: center;
   overflow: clip;
   margin-top: 204px;
 }
+/*end create a header of about page*/
+/*start create a main of about page*/
 .about_conteiner {
-  width: 1161px;
+  width: 1160px;
   height: 717px;
 display: block;
 margin: 0 auto;
 }
-
+.about_name:not(:last-child){
+  margin-bottom: 28px;
+}
+.item_section:not(:last-child){
+  margin-bottom: 29px;
+}
 .first_column_hero {
   width: 506px;
   height: 485px;
@@ -529,6 +547,8 @@ margin: 0 auto;
     margin-bottom: 25px;
     column-gap: 35px; 
 }
+/*end create a main of about page*/
+/* start create the adaptive media of about page*/
 @media (max-width: 991.98px) {
    .start_body{
     flex-direction: column;
@@ -574,7 +594,7 @@ margin: 0 auto;
   }
   .second_column_hero {
     padding:0px 20px;
-    height:320px;
+    height:560px;
   }
   .start_conteiner {
     margin-top: 70px;
@@ -594,3 +614,104 @@ margin: 0 auto;
   padding:20px 50px;
 }
 }
+@media (max-width: 550px) {
+  .second_column_hero {
+    height: 350px;
+  }
+}
+/*end create the adaptive media of about page*/
+/*start create a main of work page*/
+.wrapper_work {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: clip;
+}
+
+.work_conteiner {
+  max-width: 1160px;
+  margin:0 auto;
+  padding:0px 15px;
+}
+.work_title {
+  padding-top: 177px;
+  text-align: left;
+}
+.page_image {
+  margin-top: 103px;
+}
+.image_conteiner {
+  max-width: 1160px;
+  margin:0 auto;
+  display: flex;
+  flex-direction: row;
+}
+.work_title_text{
+padding-top: 16px;
+}
+.work_title_text:not(:last-child){
+  margin-bottom: 9px;
+}
+.work_text{
+font-size: 14px;
+font-weight: 400;
+line-height: 1.5; /* 21/14 */
+opacity: 0.7;
+
+}
+.image_conteiner:not(:last-child){
+margin-bottom: 30px;
+}
+.work_column {
+  flex:0 1 50%;
+  column-gap: 40px;
+}
+.work_text,.work_title_text{
+text-align: center;
+}
+/*end create a main of work page*/
+/*start create the adaptive media of work page*/
+@media (max-width: 991.98px) {
+  .work_title {
+    text-align: center;
+  }
+  .image_conteiner {
+  flex-direction: column;
+   justify-content: center;
+   row-gap: 40px;
+   text-align: center;
+  }
+  .work_column {
+    display: block;
+    margin: 0 auto;
+  }
+  .work_text{
+font-size: 14px;
+font-weight: 400;
+line-height: 1.5; /* 21/14 */
+  }
+ 
+}
+@media (max-width: 767.98px) {
+  .work_title {
+    padding-top: 70px;
+    text-align: center;
+  }
+  .image_conteiner {
+     row-gap: 20px;
+    }
+  .work_column {
+    display: block;
+    margin: 0 auto;
+    row-gap: 40px;
+    padding:0px 15px;
+  }
+  .start_conteiner{
+    margin-top: 10px;
+    padding:0px 15px;
+  }
+  .start_title{
+    padding-top: 40px;
+  }
+  }
+  /*end create the media adaptive of work page*/
