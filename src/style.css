@@ -167,7 +167,7 @@ h4 {
   max-width: 693px;
   height: 353px;
   margin: 0 auto;
-  padding-top: 150px;
+  padding-top: 200px;
 }
 .greeting {
   font-weight: 700;
@@ -429,7 +429,8 @@ text-align: center;
     height: 650px;
   }
   .title {
-    margin-top: 70px;
+    margin-top: 0px;
+    padding-top: 150px;
   }
   .main_paragraph{
     font-size: 15px;
