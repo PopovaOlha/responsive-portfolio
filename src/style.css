@@ -272,10 +272,11 @@ text-align: center;
 
 .contact_paragraph {
   font-weight: 400;
-  font-size: 18px;
+  font-size: 17px;
   line-height: 1.5; /* 27/18 */
 }
 .contact_row {
+  margin:0px;
   padding: 45px 120px;
   height: 200px;
   background-color: #f9f7fe;
@@ -511,7 +512,7 @@ margin: 0 auto;
   width: 506px;
   height: 485px;
   margin-top: 177px;
-  margin-right: 94px;
+  margin-right: 105px;
 }
 
 .second_column_hero {
