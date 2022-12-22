@@ -114,7 +114,7 @@ h4 {
   max-width: 1161px;
   background-color: var(--wrapper-background-color);
   border-radius: 10px;
-  padding:0px 10px;
+  padding:15px 10px;
   opacity: 0.9;
 }
 .navbar-collapse {
@@ -167,7 +167,7 @@ h4 {
   max-width: 693px;
   height: 353px;
   margin: 0 auto;
-  padding-top: 200px;
+  padding-top: 276px;
 }
 .greeting {
   font-weight: 700;
@@ -349,7 +349,8 @@ text-align: center;
     font-size: 20px;
   }
   .title{
-    margin-top:80px;
+    margin-top:0px;
+    padding-top:150px;
   }
   .greeting {
     font-size: 30px;
@@ -565,7 +566,7 @@ margin: 0 auto;
   .first_column_hero {
     display: block;
     margin: 0 auto;
-    margin-top: 40px;
+    margin-top: 80px;
     text-align: center;
   }
   .second_column_hero {
@@ -594,7 +595,7 @@ margin: 0 auto;
 }
 @media (max-width: 767.98px) {
   .first_column_hero {
-    margin-top:70px;
+    margin-top:90px;
     padding:0px 20px;
   }
   .second_column_hero {
