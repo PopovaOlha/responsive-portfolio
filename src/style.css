@@ -725,6 +725,18 @@ line-height: 1.5; /* 21/14 */
     margin-bottom: 50px;
   }
   }
+  .contact_source{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+  }
+  .source_code{
+    color:#272142;
+    font-size: 18px;
+  }
+  .logout{
+    background-color:#6c63ff;
+  }
   /*end create the media adaptive of work page*/
   /*start create the media adaptive of contact page*/
   @media (max-width: 991.98px) {
@@ -749,6 +761,14 @@ line-height: 1.5; /* 21/14 */
     }
 .footer{
   margin-top: 100px;
+}
+.source_code{
+  
+  font-size: 14px;
+}
+.contact_source{
+  margin:50px 0px;
+  padding:0px 15px;
 }
   }
   /*end create the media adaptive of contact page*/
